@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pip-hiccup"
+version = "0.1.0"
+description = ""
+authors = ["Tony Stark <statony86@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pip_hiccup"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+matplot = "^0.1.9"
+scikit-learn = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
