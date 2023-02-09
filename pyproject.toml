@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "pip-hiccup"
+name = "pandas-numpy-tutor"
 version = "0.1.0"
 description = ""
 authors = ["Tony Stark <statony86@gmail.com>"]
 readme = "README.md"
-packages = [{include = "pip_hiccup"}]
+packages = [{include = "pandas-numpy-tutor"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
